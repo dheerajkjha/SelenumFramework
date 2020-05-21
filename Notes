@@ -1,0 +1,16 @@
+Selenium Automation
+1. Install Java JDK
+2. Install Intellij/Eclipse IDE
+3. Download Browsers
+4. Download Webdrivers for respective browsers (webdrivers should support the browser version)
+5. Create a Maven Project
+6. Add Java Properties to the Maven file
+7. Add Chromedriver (or any other browser) Maven dependency
+   Go to Maven Repository and search for Selenium Chrome Driver and copy Maven xml
+8. Now we need to include the chromedriver executable to our project
+   Go to Project -> New -> Directory -> name the directory as "resources"
+9. Got an error while running first program in Intellij
+   release version 5 not supported
+   Solution from Stackoverflow - Refer
+10. NoSuchElementException - When webdriver not able to find the element on the webpage
+    Try to use the correct element locator
